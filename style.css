@@ -1,7 +1,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: hidden;
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
@@ -48,7 +47,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #f9faf8;
-    margin: 0px 150px;
+    padding: 50px 150px;
     gap: 50px;
     height: 215px;
 }
@@ -71,4 +70,45 @@ button {
     justify-content: center;
     align-items: center;
     height: 215px;
+}
+
+.content-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 150px;
+    gap: 50px;
+    height: 215px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    flex-direction: column;
+}
+
+.main-title-b {
+    font-size: 36px;
+    font-weight: bold;
+    margin: -10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.img-square {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    border: 5px solid #3882f6;
 }
